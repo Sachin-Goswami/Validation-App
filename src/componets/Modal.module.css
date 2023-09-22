@@ -1,0 +1,30 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: rgb(37, 37, 196);
+
+}
+
+.popup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(34, 34, 226);
+    color: white;
+}
+
+.popup p.error {
+    color: red;
+}
